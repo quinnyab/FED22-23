@@ -40,11 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Main1.png" width="300px" alt="Home pagina van de website Saint Giovanni De La Mode">
+  <img src="readme-images/Main2.png" width="300px" alt="Home pagina van de website Saint Giovanni De La Mode">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ <img src="readme-images/2nd.png" width="300px" alt="'Women Jacket' pagina van de website Saint Giovanni De La Mode">
  
 </details>
 
