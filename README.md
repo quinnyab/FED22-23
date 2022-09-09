@@ -60,9 +60,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Tijdens het gebruiken van de screenreader viel er mij niks op wat er veranderd kan worden. De kopjes, links etc. zijn te volgen. Ik had ook getest   of het duidelijk zou zijn welke kleur een item zou zijn en dat is zo, want het wordt duidelijk aangegeven in de titel van de item.
 
 
   #### Muis en Toetsenbord 
@@ -72,15 +70,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met de shock-apparaat door de website heen scrollen was wel moeilijk om te doen, omdat het een soort terughoudend gevoel gaf. Er was afleiding, ik   ging mij focussen op de schokken inplaats van de website. Elke keer dat ik mijn hand/arm naar mijn laptop bracht, trok het zich vanzelf terug. Een   oplossing kan zijn om spraak toe te voegen, zodat mensen met een motoriek probleem makkelijk door de website heen kunnen.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  In mijn onderzoek ben ik erachter gekomen dat er geen dark mode is van de website, wat moeilijk kan zijn voor mensen die moeite hebben met fel       licht. Dus om die mensen te helpen ga ik een dark mode versie maken van de website.
+  Ook heb ik getest hoe de website eruit ziet voor mensen met een slecht zicht. Zelf heb ik ook slecht zicht en draag ik een bril/lenzen en weet ik   hoe het is om (bijna) niks te zien. Een oplossing daarvoor is om een knop toe te voegen waardoor alles groter wordt. 
+  Daarna heb ik getest hoe het is om kleurenblind te zijn. En de enige oplossing waar ik nu op kan komen is wat de website al doet en dat is de       kleur van item in de titel zetten.
 
 </details>
 
