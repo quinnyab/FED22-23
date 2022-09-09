@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Mijn focus voor deze opdracht is zorgen dat de problemen die ik heb gevonden, op te lossen. Ik wil mijn best gaan doen met het oplossen en er ook   voor gaan zorgen dat de website dezelfde look en feel krijgt als de huidige website.
  
 </details>
 
@@ -64,9 +64,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De website bedienen met je toetsenbord heb ik getest en eerst was het wennen, maar het is wel te doen. Er is een logische volgorde en plaatsing     van knoppen/elementen wan wat je wilt gaan doen. Met de muis werken alle states van de elementen, zoals de hover en focus. Dus bij deze             toegankelijkheidstest heb ik geen problemen gevonden.
 
 
   #### Motoriek (shocks, elastiekjes)
