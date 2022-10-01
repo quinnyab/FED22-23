@@ -209,17 +209,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
+  | Julia             | Quinny             | Arron        | Britney          |
+  | Buttons in        | Carousel en h2, a, | Media Query's| Buttons          |
+  | carousel en nav   | logo button        | & ongelijke  | positioneren en  |
+  | dropdown + resp.  | centreren          | grid         | aanroepen elem.  |
+  
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
+  - Julia en ik waren nog tot over onze uur nog bezig met het krijgen van hulp.
   - punt 2
   - nog een punt
   - ...
