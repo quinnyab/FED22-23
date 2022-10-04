@@ -45,11 +45,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Account
- <img src="readme-images/login.jpg" width="280px" alt="'Account (login)' pagina van de website Saint Giovanni De La Mode">
+ <img src="readme-images/login.png" width="280px" alt="'Account (login)' pagina van de website Saint Giovanni De La Mode">
   
   #### Screenshot(s) van een dynamische deel (small screen):
   Sidebar
- <img src="readme-images/sidebar.jpg" width="280px" alt="'Sidebar' pagina van de website Saint Giovanni De La Mode">
+ <img src="readme-images/sidebar.png" width="280px" alt="'Sidebar' pagina van de website Saint Giovanni De La Mode">
  
 </details>
 
