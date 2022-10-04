@@ -44,8 +44,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/Main2.png" width="280px" alt="Home pagina van de website Saint Giovanni De La Mode">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Women Jacket
- <img src="readme-images/2nd.png" width="280px" alt="'Women Jacket' pagina van de website Saint Giovanni De La Mode">
+  Account
+ <img src="readme-images/2nd.png" width="280px" alt="'Account (login)' pagina van de website Saint Giovanni De La Mode">
  
 </details>
 
