@@ -263,7 +263,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Custom proporties
   - Dark mode
   
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/darkmode.png" width="375px" alt="top1">
+  <img src="readme-images/sunicon.png" width="375px" alt="top2">
+  <img src="readme-images/slides.png" width="375px" alt="top3">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -275,7 +277,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Het plaatsen van de social media iconen in de sidebar.
   - Mijn logo wou gewoon NIET centreren.
   
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/button.png" width="375px" alt="bummer1">
+  <img src="readme-images/buttonCloseup.png" width="375px" alt="bummer2">
+  <img src="readme-images/social media icons.png" width="375px" alt="bummer3">
+  <img src="readme-images/logo.png" width="375px" alt="bummer4">
+  
 </details>
 
 
