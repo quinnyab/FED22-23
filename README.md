@@ -154,27 +154,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Julia             | Quinny             | Arron        | Britney          |
-  |   |    |   |      |
+  | Julia             | Quinny             | Arron              | Britney          |
+  | Nav & dropdown    | Nav & dropdown     | Nav & dropdown     | Nav & dropdown   |
+  |                   |                    | Borders grid       | H1 in sections   |
+  |                   |                    | Responsive @media  |                  |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - 
+  - Sanne had de nav en dropdown als eerst uitgelegd, omdat iedereen er behoefte aan had. Daarna had hij het ook gedeeld in Teams.
+  - Daarna had hij de H1 voor Britney uitgelegd.
+  - De 'Borders grid' en 'Responsive @media' zou Sanne apart aan Arron uitleggen, omdat het veel om uit te leggen was.
+  
+  BELANGRIJKE MEDEDELING
+
+  Aan het eind van de feedbacksessie gaf de display van mijn laptop het op en kreeg ik alleen zwart scherm te zien. Dit heeft mijn voortgang voor drie 
+  dagen stop gezet, want ik was radeloos en zocht ook naar oplossingen. Op mijn computer ben ik verder gaan werken, maar dat lukte dn ook weer niet wegens 
+  device verschillen. Bij de tweede toegankelijkheidstest was dat ook te zien, want wat ik op mijn computer zag, was niet te zien op de laptop. Na de test 
+  ben ik thuis gewoon gaan werken op mijn laptop met een externe scherm, zodat ik het weer goed kon krijgen en ben ik ook helemaal opnieuw begonnen. Ook 
+  heb ik een derde toegankelijkheidstest thuis gedaan om weer op gang te komen.
 
 </details>
-
-
-BELANGRIJKE MEDEDELING
-
-Aan het eind van de feedbacksessie gaf de display van mijn laptop het op en kreeg ik alleen zwart scherm te zien. Dit heeft mijn voortgang voor drie dagen 
-stop gezet, want ik was radeloos en zocht ook naar oplossingen. Op mijn computer ben ik verder gaan werken, maar dat lukte dn ook weer niet wegens device 
-verschillen. Bij de tweede toegankelijkheidstest was dat ook te zien, want wat ik op mijn computer zag, was niet te zien op de laptop. Na de test ben ik 
-thuis gewoon gaan werken op mijn laptop met een externe scherm, zodat ik het weer goed kon krijgen en ben ik ook helemaal opnieuw begonnen. Ook heb ik een 
-derde toegankelijkheidstest thuis gedaan om weer op gang te komen.
 
 
 ## Toegankelijkheidstest 2/2 (week 4)
