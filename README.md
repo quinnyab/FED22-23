@@ -279,7 +279,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   1. Dark mode: https://www.youtube.com/watch?v=9LZGB3OLXNQ
-  2. Carousel: 
+  2. Carousel: https://codepen.io/shooft/pen/zYKEyrN
   3. Sidebar: 
 
 </details>
