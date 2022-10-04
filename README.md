@@ -45,7 +45,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Account
- <img src="readme-images/2nd.png" width="280px" alt="'Account (login)' pagina van de website Saint Giovanni De La Mode">
+ <img src="readme-images/login.jpg" width="280px" alt="'Account (login)' pagina van de website Saint Giovanni De La Mode">
+  
+  #### Screenshot(s) van een dynamische deel (small screen):
+  Sidebar
+ <img src="readme-images/sidebar.jpg" width="280px" alt="'Sidebar' pagina van de website Saint Giovanni De La Mode">
  
 </details>
 
@@ -86,13 +90,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/artboard1.jpg" width="275px" alt="breakdown van de home pagina">
+  <img src="readme-images/Artboard 1.jpg" width="275px" alt="breakdown van de home pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/artboard2.jpg" width="275px" alt="breakdown van de sidebar">
+  <img src="readme-images/Artboard 2.jpg" width="275px" alt="breakdown van de sidebar">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/artboard3.jpg" width="275px" alt="breakdown van de account/ login pagina">
+  <img src="readme-images/Artboard 3.jpg" width="275px" alt="breakdown van de account/ login pagina">
 
 </details>
 
