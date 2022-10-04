@@ -258,12 +258,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
+  - Een carousel leren maken.
+  - Het zetten van een forums.
+  - Custom proporties
+  - Dark mode
+  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
+  - Het plaatsen van de button op de main pagina. Uiteindelijk vond ik het gewoon onnodig, want je kan gewoon scrollen.
+  - Het niet scrollen op de achtergond wanneer de sidebar open is.
+  - De plaatsing van het kruisje in de sidebar op een plek zetten. Dat kwam vooral door de animatie van menu naar kruis. Ze delen dezelfde spans.
+  - Het plaatsen van de social media iconen in de sidebar.
+  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
