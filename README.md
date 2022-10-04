@@ -280,6 +280,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. Dark mode: https://www.youtube.com/watch?v=9LZGB3OLXNQ
   2. Carousel: https://codepen.io/shooft/pen/zYKEyrN
-  3. Sidebar: 
+  3. Sidebar Button: https://codepen.io/celestial-qb/pen/poVKqzG?editors=1010
 
 </details>
