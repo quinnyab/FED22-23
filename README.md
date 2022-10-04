@@ -22,7 +22,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Mijn focus voor deze opdracht is zorgen dat de problemen die ik heb gevonden, op te lossen. Ik wil mijn best gaan doen met het oplossen en er ook   voor gaan zorgen dat de website dezelfde look en feel krijgt als de huidige website.
+  Mijn focus ligt op de 'Surface Plane'. Voor deze opdracht wil ik de problemen oplossen die ik heb gevonden. Ik wil mijn best gaan 
+  doen met het oplossen en er ook voor gaan zorgen dat de website dezelfde look en feel krijgt als de huidige website.
  
 </details>
 
