@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+:root {
+    --primary:#000;
+    --secondary: #fff;
+    --onlyBody: #fff;
+
+    --primaryLogin:#000;
+    --secondaryLogin: #fff;
+
+    --headerOne:#DDD;
+    --sidebarMenu: #1c1b1b;
+    --headerOneButton: #333;
+    --hoverColor: #900C3F;
+    --listBeforeHover: #888888;
+    --callToAction: #D70000;
+    --langBorder: #CCC;
+    --langText: #666;
+    --borderFooter: #262626;
+}
+
+/* Account/ Login Pagina */
+
+main > h2 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: .2em;
+    line-height: 1.65;
+    color: var(--primaryLogin);
+    text-align: center;
+    margin-top: 5em;
+}
+
+main > p {
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: var(--primaryLogin);
+    text-align: center;
+    margin: 0;
+}
+
+main > article {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8em;
+}
+
+main > article > p {
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: var(--primaryLogin);
+    margin: 0;
+    padding-right: .2em;
+}
+
+main > article > a {
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: var(--primaryLogin);
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+}
+
+main > form {
+    padding: 1.5em;
+}
+
+input[type=text] {
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: var(--primaryLogin);
+    width: 100%;
+    padding: .75em .875em;
+    border: 0.1em solid var(--headerOne);
+    box-sizing: border-box;
+    margin-top: .375em;
+    margin-bottom: 1em;
+    background-color: transparent;
+    resize: vertical;
+}
+
+input[type=password] {
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--primaryLogin);
+    width: 100%;
+    padding: .75em .875em;
+    border: 0.1em solid var(--headerOne);
+    box-sizing: border-box;
+    margin-top: .375em;
+    margin-bottom: .1em;
+    background-color: transparent;
+    resize: vertical;
+}
+
+main > form > a {
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    color: var(--listBeforeHover);
+}
+
+main > form > button {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: .2em;
+    line-height: 1.65;
+    background-color: var(--callToAction);
+    color: var(--secondary);
+
+    text-decoration: none;
+    border-radius: 0;
+    border: transparent;
+    outline: none;
+    padding: 0.875em 1.75em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    cursor: pointer;
+    width: 100%;
+}
+
+main > form > button:hover {
+    background-color: var(--hoverColor);
+}

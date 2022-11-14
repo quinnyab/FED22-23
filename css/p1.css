@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+:root {
+    --primary: #000;
+    --secondary: #fff;
+    --onlyBody: #fff;
+
+    --primaryLogin: #000;
+    --secondaryLogin: #fff;
+
+    --headerOne: #DDD;
+    --sidebarMenu: #1c1b1b;
+    --headerOneButton: #333;
+    --hoverColor: #900C3F;
+    --listBeforeHover: #888888;
+    --callToAction: #D70000;
+    --langBorder: #CCC;
+    --langText: #666;
+    --borderFooter: #262626;
+}
+
+/******************************/
+/* DE CAROCARROUSEL CONTAINER */
+/******************************/
+
+.caroCarrousel {
+    position: relative;
+    overflow: hidden;
+    /* om de linkbuttons te verbergen */
+    outline: none;
+}
+
+/************************************/
+/* de carrousel elementen container */
+.caroCarrousel>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    /* handmatig scrollen is mogelijk */
+    overflow: hidden;
+
+    /* snappen als er gescrolled wordt - andere helft bij li */
+    scroll-snap-type: inline mandatory;
+
+    /* smooth scrollen */
+    scroll-behavior: smooth;
+
+    /* scrollbar zoveel mogelijk verbergen */
+    -webkit-overflow-scrolling: touch;
+    /* voor iOS*/
+    -ms-overflow-style: none;
+    /* voor IE */
+    scrollbar-width: none;
+    /* voor firefox */
+}
+
+.caroCarrousel>ul::-webkit-scrollbar {
+    /* scrollbar zoveel mogelijk verbergen */
+    display: none;
+    /* voor chrome, safari en edge*/
+}
+
+
+/**************************/
+/* de carrousel elementen */
+.caroCarrousel>ul li {
+    flex-basis: 100%;
+    flex-shrink: 0;
+    /* snappen als er gescrolled wordt - andere helft bij ul */
+    scroll-snap-align: center;
+}
+
+
+/**********************************/
+/* de carrousel elementen content */
+
+/* de stijlen voor jouw content hier */
+.caroCarrousel>ul li>img {
+    display: block;
+    width: 100%;
+}
+
+
+/****************/
+/* DE BOLLETJES */
+/****************/
+
+/* de bolletjes container */
+.caroCarrousel nav ul {
+    margin-bottom: 0;
+    margin-left: 1em;
+    margin-top: -2em;
+    padding: 0 0 .5em;
+    list-style: none;
+
+    display: flex;
+    /* 	flex-wrap:wrap; */
+    justify-content: left;
+    gap: .1em;
+}
+
+/* een bolletje container */
+.caroCarrousel>nav li {
+    flex-basis: 1.2em;
+    aspect-ratio: 1/1;
+}
+
+/* De Bolletjes */
+
+#bolletjesAndLinkButtons {
+    margin: 0;
+    padding: 0;
+}
+
+.caroCarrousel>nav a {
+    display: block;
+    width: 70%;
+    height: 70%;
+
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: inset 0 0 0 1px var(--primary);
+
+    transition: 0.5s;
+}
+
+.caroCarrousel>nav a:hover,
+.caroCarrousel>nav a:focus {
+    color: #666;
+}
+
+.caroCarrousel>nav a.current {
+    background-color: var(--primary);
+}
+
+
+/****************************/
+/* PREV EN NEXT LINKBUTTONS */
+/****************************/
+
+.caroCarrousel>a {
+    position: absolute;
+    width: 1em;
+    aspect-ratio: 1/1;
+    top: 40%;
+
+    color: var(--primary);
+    background-color: transparent;
+    outline: none;
+
+    display: grid;
+    align-items: center;
+    place-items: center;
+
+    transition: 0.5s;
+}
+
+/* initieel staan de links "buiten beeld" */
+.caroCarrousel>a[href="previous"] {
+    left: -3.5em;
+}
+
+.caroCarrousel>a[href="next"] {
+    right: -3.5em;
+}
+
+/* bij hover en focus schuiven de links in beeld */
+.caroCarrousel:hover>a[href="previous"],
+.caroCarrousel:focus-within>a[href="previous"] {
+    left: .5em;
+}
+
+.caroCarrousel:hover>a[href="next"],
+.caroCarrousel:focus-within>a[href="next"] {
+    right: .5em;
+}
+
+/* prev en next linkbuttons pijltjes */
+.caroCarrousel>a::before,
+.caroCarrousel>a::after {
+    content: "";
+    position: absolute;
+    width: 1em;
+    height: 4px;
+    background-color: var(--primary);
+}
+
+.caroCarrousel>a[href=previous]::before {
+    transform-origin: 2px center;
+    transform: translateY(0) rotate(45deg);
+}
+
+.caroCarrousel>a[href=previous]::after {
+    transform-origin: 2px center;
+    transform: translateY(0) rotate(-45deg);
+}
+
+.caroCarrousel>a[href=next]::before {
+    transform-origin: calc(100% - 2px) center;
+    transform: translateY(0) rotate(45deg);
+}
+
+.caroCarrousel>a[href=next]::after {
+    transform-origin: calc(100% - 2px) center;
+    transform: translateY(0) rotate(-45deg);
+}
+
+.caroCarrousel>a:hover,
+.caroCarrousel>a:focus {
+    color: var(--sidebarMenu);
+}
+
+
+/* Main */
+
+main {
+    margin: 0;
+    padding-top: 0;
+}
+
+/* main > section {
+    /* afbeeldingen apart doen bc now we're talking about the carousel too and we don't want that 
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-block: 10rem;
+    background-size: cover;
+    padding-bottom: 2em;
+} */
+
+main > ul {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-size: cover;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(min(16em, 100%), 1fr));
+    gap:1em;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+
+main > ul > li {
+    aspect-ratio: 3/2;
+    display: grid;
+    grid-template-columns:auo max-content;
+    grid-template-rows:min-content 1fr min-content;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+    padding-bottom: .5em;
+}
+
+main > ul > li > img:hover {
+    border: .5em solid var(--hoverColor);
+}
+
+main > ul > li > img {
+    display: block;
+    width: 100%;
+}
+
+/* New Arrivals */
+
+main > ul > li:first-of-type {
+    position: relative;
+}
+
+main > ul > li:first-of-type > h2 {
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: .2em;
+}
+
+main > ul > li:first-of-type > a {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--secondary);
+    background-color: var(--primary);
+    padding: 1.2em 2.4em;
+    text-align: center;
+    letter-spacing: .2em;
+}
+
+main > ul > li:first-of-type > a:hover {
+    background-color: var(--hoverColor);
+}
+
+/* Men */
+
+main > ul > li:nth-of-type(2) {
+    position: relative;
+}
+
+main > ul > li:nth-of-type(2) > h2 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: .2em;
+}
+
+main > ul > li:nth-of-type(2) > a {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--secondary);
+    background-color: var(--primary);
+    padding: 1.2em 2.4em;
+    text-align: center;
+    letter-spacing: .2em;
+}
+
+main > ul> li:nth-of-type(2) > a:hover {
+    background-color: var(--hoverColor);
+}
+
+/* Women */
+
+main > ul > li:last-of-type {
+    position: relative;
+}
+
+main > ul > li:last-of-type > h2 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: .2em;
+}
+
+main > ul > li:last-of-type > a {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--secondary);
+    background-color: var(--primary);
+    padding: 1.2em 2.4em;
+    text-align: center;
+    letter-spacing: .2em;
+}
+
+main > ul > li:last-of-type > a:hover {
+    background-color: var(--hoverColor);
+}
