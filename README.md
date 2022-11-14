@@ -22,8 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Mijn focus ligt op de 'Surface Plane'. Voor deze opdracht wil ik de problemen oplossen die ik heb gevonden. Ik wil mijn best gaan 
-  doen met het oplossen en er ook voor gaan zorgen dat de website dezelfde look en feel krijgt als de huidige website.
+  Mijn focus ligt op de 'Surface Plane'. Ik wil een dark-mode toevoegen, want dat heeft de website niet. Ook ga ik de states van controls en de pagina bewerken/toevoegen. Micro-interacties worden ook toegevoegd. Custom properties ben ik ook van plan te gebruiken. Ook ben ik van plan om als gebruiker te kijken wat erbij kan of weggelaten kan worden, om waarde toe te voegen aan de website.
  
 </details>
 
@@ -45,12 +44,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/Main2.png" width="280px" alt="Home pagina van de website Saint Giovanni De La Mode">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Account
+  Women Jackets
+  <img src="readme-images/wmjackets.jpg" width="280px" alt="'Women Jackets' pagina van de website Saint Giovanni De La Mode">
+  
+  #### Screenshot(s) van de derde pagina (small screen):
+  Account/ Login
  <img src="readme-images/account.png" width="280px" alt="'Account (login)' pagina van de website Saint Giovanni De La Mode">
   
   #### Screenshot(s) van een dynamische deel (small screen):
   Sidebar
  <img src="readme-images/sidebar.png" width="280px" alt="'Sidebar' pagina van de website Saint Giovanni De La Mode">
+ 
  
 </details>
 
@@ -260,6 +264,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Het zetten van een forums.
   - Custom proporties
   - Dark mode
+  - Hover op afbeeldingen
+  - Sidebar
+  - Borders om sections
+  - Footer
+  - Hover op links/buttons
   
   <img src="readme-images/darkmode.png" width="375px" alt="top1">
   <img src="readme-images/sunicon.png" width="375px" alt="top2">
@@ -270,15 +279,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Korte omschrijving met plaatjes
 
   - Het plaatsen van de button op de main pagina. Uiteindelijk vond ik het gewoon onnodig, want je kan gewoon scrollen.
-  - Het niet scrollen op de achtergond wanneer de sidebar open is.
-  - De plaatsing van het kruisje in de sidebar op een plek zetten. Dat kwam vooral door de animatie van menu naar kruis. Ze delen dezelfde spans.
-  - Het plaatsen van de social media iconen in de sidebar.
-  - Mijn logo wou gewoon NIET centreren.
+  - List/ grid view voor de jackets. Ik raakte steeds in de war met de codes in combinatie van de hover en columns. Ik heb tutorials gevolgd, maar de combinatie van die twee ging steeds verkeerd. Voornamelijk ook, omdat ik geen divs, classes en id's mocht gebruiken.
+  - Mijn jackets afbeeldingen zijn niet op orde wanneer de scherm groter wordt, maar omdat ik 'surface plane' heb gekozen lever ik het toch in, maar het stoort mij nog wel.
+  - De select bij jackets. De ruimte tussen 'Sort' en het pijltje hangt af van hoelang de tekst is van de opties en ik wist niet hoe ik het moest oplossen. Ik had padding en margin geprobeert, maar niks.
   
   <img src="readme-images/button.png" width="375px" alt="bummer1">
   <img src="readme-images/buttonCloseup.png" width="375px" alt="bummer2">
-  <img src="readme-images/social media icons.png" width="375px" alt="bummer3">
-  <img src="readme-images/logo.png" width="375px" alt="bummer4">
   
 </details>
 
