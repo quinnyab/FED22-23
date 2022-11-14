@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+:root {
+    --primary:#000;
+    --secondary: #fff;
+    --onlyBody: #fff;
+
+    --primaryLogin:#000;
+    --secondaryLogin: #fff;
+
+    --headerOne:#DDD;
+    --sidebarMenu: #1c1b1b;
+    --headerOneButton: #333;
+    --hoverColor: #900C3F;
+    --listBeforeHover: #888888;
+    --callToAction: #D70000;
+    --langBorder: #CCC;
+    --langText: #666;
+    --borderFooter: #262626;
+}
+
+.dark-mode {
+    --primaryLogin:#fff;
+    --secondaryLogin: #000;
+    --onlyBody: #151217;
+    --callToAction: #6C0E23;
+    --hoverColor: #480917;
+    --langText: #fff;
+}
+
+main > h2 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: var(--primaryLogin);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Sort */
+
+main > section {
+    border-top: .01em solid var(--listBeforeHover);
+    border-bottom: .01em solid var(--listBeforeHover);
+    display:grid;
+    grid-template-columns: 5fr max-content 1fr;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+main > section > ul {
+    list-style-type: none;
+    appearance: none;
+    margin: 0;
+    padding: 1em;
+}
+
+main > section > ul > li {
+    line-height: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main > section > ul > li > select {
+    transition: 0.5s;
+    background-color: transparent;
+    color: var(--langText);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: .2em;
+    border: none;
+}
+
+main > section > ul > li > select:hover {
+    color: var(--hoverColor);
+}
+
+/* List/ Grid View */
+
+main > section > button {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 3.5em;
+}
+
+main > section> button > img {
+    appearance: none;
+    background-color: transparent;
+    width: 1.3em;
+}
+
+main > section > button:first-of-type {
+    border-left: .005em solid var(--listBeforeHover);
+    padding-left: 1.5em;
+    margin: 0;
+}
+
+
+/***********/
+/* Jackets */
+/***********/
+
+main > ul {
+    margin:0;
+    padding:0;
+    padding-bottom: 2em;
+    list-style:none;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(min(16em, 100%), 1fr));
+    gap:1em;
+    justify-content: center;
+    align-items: center;
+}
+
+main > ul > li {
+    aspect-ratio: 3/2;
+    padding: 2em;
+    display: grid;
+    grid-template-rows:min-content 1fr min-content;
+    row-gap:1em;
+    background-color: var(--onlyBody);
+    justify-content: center;
+    align-items: center;
+}
+
+main > ul > li:hover {
+    border: .5em solid var(--hoverColor);
+}
+
+/*  White Jacket */
+
+main > ul > li:first-of-type {
+    text-align: center;
+}
+
+main > ul > li:first-of-type > img:first-of-type {
+    position: relative;
+    width: 18em;
+    opacity: 0;
+}
+
+main > ul > li:first-of-type > img:last-of-type {
+    position: absolute;
+    width: 20em;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: all 0.7s ease;
+}
+
+main > ul > li:first-of-type:hover > img:first-of-type{
+    opacity: 1;
+}
+
+main > ul > li:first-of-type:hover > img:last-of-type{
+    opacity: 0;
+}
+
+
+/*  Pink Jacket */
+
+main > ul > li:nth-of-type(2) {
+    text-align: center;
+}
+
+main > ul > li:nth-of-type(2) > img:first-of-type {
+    position: relative;
+    width: 22em;
+    opacity: 0;
+}
+
+main > ul > li:nth-of-type(2) > img:last-of-type {
+    position: absolute;
+    width: 20em;
+    left: 50%;
+    top: 160%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: all 0.7s ease;
+}
+
+main > ul > li:nth-of-type(2):hover > img:first-of-type{
+    opacity: 1;
+}
+
+main > ul > li:nth-of-type(2):hover > img:last-of-type{
+    opacity: 0;
+}
+
+/*  Khaki Jacket */
+
+main > ul > li:nth-of-type(3) {
+    text-align: center;
+}
+
+main > ul > li:nth-of-type(3) > img:first-of-type {
+    position: relative;
+    width: 18em;
+    opacity: 0;
+}
+
+main > ul > li:nth-of-type(3) > img:last-of-type {
+    position: absolute;
+    width: 20em;
+    left: 50%;
+    top: 250%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: all 0.7s ease;
+}
+
+main > ul > li:nth-of-type(3):hover > img:first-of-type{
+    opacity: 1;
+}
+
+main > ul > li:nth-of-type(3):hover > img:last-of-type{
+    opacity: 0;
+}
+
+/*  Black Jacket */
+
+main > ul > li:nth-of-type(4) {
+    text-align: center;
+}
+
+main > ul > li:nth-of-type(4) > img:first-of-type {
+    position: relative;
+    width: 18em;
+    opacity: 0;
+}
+
+main > ul > li:nth-of-type(4) > img:last-of-type {
+    position: absolute;
+    width: 20em;
+    left: 50%;
+    top: 335%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: all 0.7s ease;
+}
+
+main > ul > li:nth-of-type(4):hover > img:first-of-type{
+    opacity: 1;
+}
+
+main > ul > li:nth-of-type(4):hover > img:last-of-type{
+    opacity: 0;
+}
+
+/* Army Jacket */
+
+main > ul > li:nth-of-type(5) {
+    text-align: center;
+    padding-top: 1em;
+}
+
+main > ul > li:nth-of-type(5) > img:first-of-type {
+    position: relative;
+    width: 20em;
+    opacity: 0;
+}
+
+main > ul > li:nth-of-type(5) > img:last-of-type {
+    position: absolute;
+    width: 20em;
+    left: 50%;
+    top: 420%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: all 0.7s ease;
+}
+
+main > ul > li:nth-of-type(5):hover > img:first-of-type{
+    opacity: 1;
+}
+
+main > ul > li:nth-of-type(5):hover > img:last-of-type{
+    opacity: 0;
+}
+
+/* Algemeen */
+
+main > ul > li > img {
+    width: 100%;
+}
+
+main > ul > li > h2 {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: var(--primaryLogin);
+    font-size: 0.7em;
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top:0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0;
+    z-index: 100;
+}
+
+main > ul > li > p {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: var(--primaryLogin);
+    font-size: 0.65em;
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top:0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0;
+    z-index: 100;
+}
+
+
