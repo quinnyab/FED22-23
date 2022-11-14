@@ -29,27 +29,10 @@ var img = document.querySelector("body > header > section:nth-of-type(2) > nav:n
 
 img.onclick = function () {
     document.body.classList.toggle("dark-mode")
-    console.log("kittykat")
+    console.log("kittykatbitch")
     if (document.body.classList.contains("dark-mode")) {
         img.src = "img/sun.png"; // Source: https://www.iconsdb.com/white-icons/sun-icon.html
     } else {
         img.src = "img/moon.png"; // Source: https://www.iconsdb.com/white-icons/moon-4-icon.html
     }
 }
-
-// One Column
-
-var one = document.querySelector("body > main > section > ul > li > button:first-of-type > img")
-var two = document.querySelector("body > main > section > ul > li > button:last-of-type > img")
-
-one.onclick = function () {
-    document.body.classList.toggle()
-    console.log("onecolumn")
-    if (documentdocument.body.classList.toggle) {
-        img.src = "img/onecolumn";
-    } else {
-        img.src = "img/onecselect";
-    }
-}
-
-// Tow Columns
